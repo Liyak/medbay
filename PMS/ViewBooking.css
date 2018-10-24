@@ -1,0 +1,50 @@
+<?php
+   
+
+<style type="text/css">
+*{
+ box-sizing: border-box;}
+div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 7px;
+}
+
+table {
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:dodgerblue;<!--#4CAF50---->
+    color: white;
+}
+button {
+    background-color:dodgerblue; #4CAF50;
+    color: black;
+    padding: 2px;
+    margin: 8px;
+    cursor: pointer;
+    width: 40%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.6;
+    }
+</style>
+?>
